@@ -1,0 +1,12 @@
+GET http://localhost:3500/api/
+
+
+###
+POST http://localhost:3500/api/user 
+
+###
+GET http://localhost:3500/api2/
+
+
+###
+POST http://localhost:3500/api2/user 
