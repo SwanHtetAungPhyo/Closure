@@ -1,0 +1,59 @@
+[32m[CLOSURE] [0m2024/11/26 02:03:25 Server is listening at the address [32mhttp://localhost::3500
+[32m[CLOSURE] [0m2024/11/26 02:03:36 Received shutdown signal: interrupt
+[32m[CLOSURE] [0m2024/11/26 02:03:36 Shutting down the server .....
+[32m[CLOSURE] [0m2024/11/26 02:03:36 Server is successfully shut down
+[32m[CLOSURE] [0m2024/11/26 02:05:00 Server is listening at the address [32mhttp://localhost::3500
+[32m[CLOSURE] [0m2024/11/26 02:05:08 Received shutdown signal: interrupt
+[32m[CLOSURE] [0m2024/11/26 02:05:08 Shutting down the server .....
+[32m[CLOSURE] [0m2024/11/26 02:05:08 Server is successfully shut down
+[32m[CLOSURE] [0m2024/11/26 02:10:26 Server is listening at the address [32mhttp://localhost::3500
+[32m[CLOSURE] [0m2024/11/26 02:10:28 Get Handler is called
+[32m[CLOSURE] [0m2024/11/26 02:10:29 Get Handler is called
+[32m[CLOSURE] [0m2024/11/26 02:10:30 Get Handler is called
+[32m[CLOSURE] [0m2024/11/26 02:13:12 Received shutdown signal: interrupt
+[32m[CLOSURE] [0m2024/11/26 02:13:12 Shutting down the server .....
+[32m[CLOSURE] [0m2024/11/26 02:13:12 Server is successfully shut down
+[32m[CLOSURE] [0m2024/11/26 02:13:14 Server is listening at the address [32mhttp://localhost::3500
+[32m[CLOSURE] [0m2024/11/26 02:13:17 Cache miss for: http://localhost:3500/api/cache-key
+[32m[CLOSURE] [0m2024/11/26 02:13:17 Get Handler is called
+[32m[CLOSURE] [0m2024/11/26 02:13:33 Received shutdown signal: interrupt
+[32m[CLOSURE] [0m2024/11/26 02:13:33 Shutting down the server .....
+[32m[CLOSURE] [0m2024/11/26 02:13:38 Error occurred during shutdown context deadline exceeded
+[32m[CLOSURE] [0m2024/11/26 02:14:16 Server is listening at the address [32mhttp://localhost::3500
+[32m[CLOSURE] [0m2024/11/26 02:14:22 Get Handler is called
+[32m[CLOSURE] [0m2024/11/26 02:14:26 Received shutdown signal: interrupt
+[32m[CLOSURE] [0m2024/11/26 02:14:26 Shutting down the server .....
+[32m[CLOSURE] [0m2024/11/26 02:14:26 Server is successfully shut down
+[32m[CLOSURE] [0m2024/11/26 02:14:50 Server is listening at the address [32mhttp://localhost::3500
+[32m[CLOSURE] [0m2024/11/26 02:14:57 Received shutdown signal: interrupt
+[32m[CLOSURE] [0m2024/11/26 02:14:57 Shutting down the server .....
+[32m[CLOSURE] [0m2024/11/26 02:14:57 Server is successfully shut down
+[32m[CLOSURE] [0m2024/11/26 02:14:58 Server is listening at the address [32mhttp://localhost::3500
+[32m[CLOSURE] [0m2024/11/26 02:15:00 Received shutdown signal: interrupt
+[32m[CLOSURE] [0m2024/11/26 02:15:00 Shutting down the server .....
+[32m[CLOSURE] [0m2024/11/26 02:15:00 Server is successfully shut down
+[32m[CLOSURE] [0m2024/11/26 02:15:15 Server is listening at the address [32mhttp://localhost::3500
+[32m[CLOSURE] [0m2024/11/26 02:15:18 Cache miss for: http://localhost:3500/api/cache-key
+[32m[CLOSURE] [0m2024/11/26 02:15:18 Get Handler is called
+[32m[CLOSURE] [0m2024/11/26 02:15:24 Get Handler is called
+[32m[CLOSURE] [0m2024/11/26 02:16:03 Received shutdown signal: interrupt
+[32m[CLOSURE] [0m2024/11/26 02:16:03 Shutting down the server .....
+[32m[CLOSURE] [0m2024/11/26 02:16:08 Error occurred during shutdown context deadline exceeded
+[32m[CLOSURE] [0m2024/11/26 02:16:22 Server is listening at the address [32mhttp://localhost::3500
+[32m[CLOSURE] [0m2024/11/26 02:16:24 Get Handler is called
+[32m[CLOSURE] [0m2024/11/26 02:16:24 Get Handler is called
+[32m[CLOSURE] [0m2024/11/26 02:16:25 Get Handler is called
+[32m[CLOSURE] [0m2024/11/26 02:16:25 Get Handler is called
+[32m[CLOSURE] [0m2024/11/26 02:16:25 Get Handler is called
+[32m[CLOSURE] [0m2024/11/26 02:16:26 Get Handler is called
+[32m[CLOSURE] [0m2024/11/26 02:16:26 Get Handler is called
+[32m[CLOSURE] [0m2024/11/26 02:16:26 Get Handler is called
+[32m[CLOSURE] [0m2024/11/26 02:16:26 Get Handler is called
+[32m[CLOSURE] [0m2024/11/26 02:16:27 Get Handler is called
+[32m[CLOSURE] [0m2024/11/26 02:16:27 Get Handler is called
+[32m[CLOSURE] [0m2024/11/26 02:16:27 Get Handler is called
+[32m[CLOSURE] [0m2024/11/26 02:16:27 Get Handler is called
+[32m[CLOSURE] [0m2024/11/26 02:16:28 Get Handler is called
+[32m[CLOSURE] [0m2024/11/26 02:16:35 Received shutdown signal: interrupt
+[32m[CLOSURE] [0m2024/11/26 02:16:35 Shutting down the server .....
+[32m[CLOSURE] [0m2024/11/26 02:16:35 Server is successfully shut down

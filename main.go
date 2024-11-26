@@ -2,6 +2,7 @@ package main
 
 import (
 	"github.com/SwanHtetAungPhyo/closure/closure"
+	logging "github.com/SwanHtetAungPhyo/closure/log"
 	"github.com/SwanHtetAungPhyo/closure/middleware"
 	"github.com/valyala/fasthttp"
 )
@@ -12,18 +13,18 @@ type user struct{
 
 func main(){
 	app := closure.New()
-	jwtMiddleware := middleware.JWTMiddleware("your-secret-key")
-
-
+	// jwtMiddleware := middleware.JWTMiddleware("your-secret-key")
 	cors := middleware.NewCORSMiddleware().
 		AllowOrigins([]string{"*"}).
 		AllowMethods([]string{"GET", "POST", "PUT", "DELETE", "OPTIONS"}).
 		AllowHeaders([]string{"Content-Type", "Authorization", "X-Requested-With"})
 	
 	app.ApplyMiddleware(*cors.ToMiddleware())
-
+	// app.ApplyMiddleware((*jwtMiddleware))
 	app.Cluster("/api", func(api *closure.Cluster) {
-		app.ApplyMiddleware(*jwtMiddleware)
+		// cacheMiddleware := middleware.CacheMiddleware("cache-key")
+		// api.AddMiddleware(*jwtMiddleware)
+		// api.AddMiddleware(*cacheMiddleware)
 		api.Get("/", GetHandler)
 		api.Post("/user",PostHandler) 
 	})
@@ -41,6 +42,7 @@ func GetHandler(ctx *fasthttp.RequestCtx) any{
 	user := user{
 		Name:  "Swan",
 	}
+	logging.Logger.Println("Get Handler is called")
 	closure.JSONfiy(ctx,fasthttp.StatusAccepted,"user created", user.Name )
 	return nil 
 }
